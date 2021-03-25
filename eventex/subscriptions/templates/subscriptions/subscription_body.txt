@@ -1,0 +1,6 @@
+Você enviou os seguintes dados para a sua inscrição:
+
+Nome: {{name}}
+CPF:{{cpf}}
+email:{{email}}
+Telefone:{{phone}}
