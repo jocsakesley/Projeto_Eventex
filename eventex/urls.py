@@ -19,7 +19,7 @@ from eventex.core.views import home
 from eventex.subscriptions.views import subscription
 
 urlpatterns = [
-    path('inscricao/', subscription),
+    path('inscricao/', subscription, name="inscricao"),
     path('', home),
     path('admin/', admin.site.urls),
 ]
