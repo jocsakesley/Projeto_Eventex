@@ -17,7 +17,7 @@ cd wttd
 python -m venv .wttd
 .wttd/Scripts/activate #Windows
 source .wttd/bin/activate #Linux
-pip install requirements.txt
+pip install requirements-dev.txt
 cp contrib/env-sample .env
 python manage.py test
 ```
